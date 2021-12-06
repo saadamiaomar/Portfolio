@@ -1,0 +1,43 @@
+/*reset css*/
+html{
+    font-size: 62.5%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,p,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(13, 14, 13);
+    background-color: hsl(180, 29%, 97%);
+}
+*{
+    box-sizing: border-box;
+}
+
+/* theme */
+header h1{
+    text-align: center;
+    background-color: rgb(4, 88, 29);
+    line-height: 6.5rem;
+    font-weight: normal;
+    color: #fff;
+}
+main{
+    max-width: 90.0rem;
+    margin: 5.0rem auto;
+    border: solid .1rem #222;
+    overflow: hidden;
+}
+footer{
+    text-align: center;
+}
